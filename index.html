@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja Studio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="song1.jpg" type="image/x-icon">
+</head>
+<body style="background-color: rgb(6, 6, 65);">
+
+<header style="display: flex;">
+    <section id="header">
+        <div>
+            <img src="song.jpg" alt="Song_Image" height="60px" width="60px" class="song-logo">
+            <h3 id="heading">
+                Ninja Studio
+            </h3>
+        <h5 id="Favorite">
+            Favorites  
+        </h5>
+
+        <input type="search" class="search" placeholder="Search Here">
+        <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+        <i class="fa-sharp fa-solid fa-bell" id="bell-icon"></i>
+        <img src="men.jpg" alt="men image" width="60px" height="60px" class="men">
+    </div>
+    </section>
+</header>
+
+<main>
+    <section id="codeplay">
+        <div class="playdetails">
+        
+            <img src="dance.jpg" alt="dance" width="250px" height="400px" class="danceimage">
+            <h2 id="codeplayheading">CodePlay</h2>
+            <h4 id="britishband">British Band</h4>
+            <p id="codeplaypara">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iure nobis odio 
+                atque reprehenderit qui repellat saepe ipsam cum soluta voluptates ullam laborum 
+                consequuntur esse ab temporibus nulla, iste quia nihil delectus nostrum quisquam 
+                aliquam, adipisci ex? Ipsa, amet aperiam.
+            </p>
+            <input type="submit" name="playbutton" value="PlayAll" id="playbutton">
+            <p id="innerpara">247 Tracks | Albums</p>
+            <h4 id="follow">Follow</h4>
+        </div>
+
+    </section>
+
+    <section>
+        <div id="song1">
+            <h5 id="songhead">01</h5>
+            <img src="dillmainbajiguitar.jpg" alt="song1" width="50px" height="50px" id="img">
+            <h3 id="songname">Dil Mein Baji Guitar</h3>
+            <h4 id="singer">By Mika Singh</h4>
+            <audio id="audio" width="200" height="32" ontimeupdate="updateTime()" controls="controls">
+                <source src="03. Dil Mein Baji Guitar - Amit Kumar.mp3" type="audio/mp3" />
+            </audio>
+            <i class="fa-regular fa-heart" id="heart"></i>
+            <i class="fa-solid fa-plus" id="plus"></i>
+        </div>
+        <div id="song2">
+            <h5 id="songhead">02</h5>
+            <img src="radhe.jpg" alt="song1" width="50px" height="50px" id="img">
+            <h3 id="songname">Apni Thakurani Sree Radhika Rani</h3>
+            <h4 id="singer">By Tarun Sagar</h4>
+            <audio id="audio" width="200" height="32" ontimeupdate="updateTime()" controls="controls">
+                <source src="Apni Thakurani Shri Radhika Rani (Shri Krishna) Mp3 Song Download(MrSong.In).mp3" type="audio/mp3" />
+            </audio>
+            <i class="fa-regular fa-heart" id="heart"></i>
+            <i class="fa-solid fa-plus" id="plus"></i>
+        </div>
+        <div id="song3">
+            <h5 id="songhead">03</h5>
+            <img src="jabtak.jpg" alt="song1" width="50px" height="50px" id="img">
+            <h3 id="songname">Jab Tak</h3>
+            <h4 id="singer">By Arman Malik</h4>
+            <audio id="audio" width="200" height="32" ontimeupdate="updateTime()" controls="controls">
+                <source src="Jab Tak (M S Dhoni - The Untold Story) 320.mp3" type="audio/mp3" />
+            </audio>
+            <i class="fa-regular fa-heart" id="heart"></i>
+            <i class="fa-solid fa-plus" id="plus"></i>
+        </div>
+        <div id="song4">
+            <h5 id="songhead">04</h5>
+            <img src="kauntujhe.jpg" alt="song1" width="50px" height="50px" id="img">
+            <h3 id="songname">Kaun Tujhe</h3>
+            <h4 id="singer">By Palak Muchhal</h4>
+            <audio id="audio" width="200" height="32" ontimeupdate="updateTime()" controls="controls">
+                <source src="bollywood_MSDhoni - Kaun Tujhe.mp3" type="audio/mp3" />
+            </audio>
+            <i class="fa-regular fa-heart" id="heart"></i>
+            <i class="fa-solid fa-plus" id="plus"></i>
+        </div>
+        <div id="song5">
+            <h5 id="songhead">05</h5>
+            <img src="choteraja.jpg" alt="song1" width="50px" height="50px" id="img">
+            <h3 id="songname">Chote Raja</h3>
+            <h4 id="singer">By Kinjal Dave</h4>
+            <audio id="audio" width="200" height="32" ontimeupdate="updateTime()" controls="controls">
+                <source src="Chote Raja - Kinjal Dave 320kbps Gujarati Song(320Kbps.In).mp3" type="audio/mp3" />
+            </audio>
+            <i class="fa-regular fa-heart" id="heart"></i>
+            <i class="fa-solid fa-plus" id="plus"></i>
+        </div>
+        <div id="song6">
+            <h5 id="songhead">06</h5>
+            <img src="matkar.jpg" alt="song1" width="50px" height="50px" id="img">
+            <h3 id="songname">Matkar Maya Ko Abhiman</h3>
+            <h4 id="singer">By Kabir Cafe</h4>
+            <audio id="audio" width="200" height="32" ontimeupdate="updateTime()" controls="controls">
+                <source src="Matkar Maya Ko Ahankar_192(PagalWorld).mp3" type="audio/mp3" />
+            </audio>
+            <i class="fa-regular fa-heart" id="heart"></i>
+            <i class="fa-solid fa-plus" id="plus"></i>
+        </div>
+    </section>
+
+    <section>
+        <div id="artist">
+              <h2 id="sideheading">Similar Artists</h2>
+              <h4 id="sideheading2">View All</h4>
+              <img src="dragons.jpg" alt="dragons" width="80px" height="80px" id="sideimg">
+              <h3 id="imagesideheading">Imagine Dragons</h3>
+              <i id="dots" class="fa-solid fa-ellipsis"></i>
+              <h4 id="sidesinger">Pop Band</h4>
+              <h5 id="time">4:44</h5>
+              <br>
+              <img src="dragons2.jpg" alt="dragons" width="80px" height="80px" id="sideimg2">
+              <h3 id="imagesideheading">Imagine Dragons</h3>
+              <i id="dots" class="fa-solid fa-ellipsis"></i>
+              <h4 id="sidesinger">Pop Band</h4>
+              <h5 id="time">4:44</h5>
+              <br>
+              <img src="songs3.jpg" alt="dragons" width="80px" height="80px" id="sideimg3">
+              <h3 id="imagesideheading">Imagine Dragons</h3>
+              <i id="dots" class="fa-solid fa-ellipsis"></i>
+              <h4 id="sidesinger">Pop Band</h4>
+              <h5 id="time">4:44</h5>
+        </div>
+    </section>
+
+    <section>
+        <div id="recentplay">
+          <h2 id="recentplayhead">Recently Played</h2>
+          <h5 id="viewAll">View All</h5>
+          <br>
+          <br>
+          <h5 id="recentid">01</h5>
+          <img src="dillmainbajiguitar.jpg" alt="song1" width="50px" height="50px" id="belowimg">
+          <h3 id="belowsongname">Dil Mein Baji Guitar</h3>
+          <h4 id="belowsinger">By Mika Singh</h4>
+          <i class="fa-regular fa-heart" id="belowheart"></i>
+          <br>
+          <h5 id="recentid">02</h5>
+          <img src="radhe.jpg" alt="song1" width="50px" height="50px" id="belowimg">
+          <h3 id="belowsongname">Apni Thakurani</h3>
+          <h4 id="belowsinger1">By Tarun Sagar</h4>
+          <i class="fa-regular fa-heart" id="belowheart"></i>
+          <br>
+          <h5 id="recentid">03</h5>
+          <img src="jabtak.jpg" alt="song1" width="50px" height="50px" id="belowimg">
+          <h3 id="belowsongname">Jab Tak</h3>
+          <h4 id="belowsinger3">By Arman Malik</h4>
+          <i class="fa-regular fa-heart" id="belowheart"></i>
+          <br>
+          <h5 id="recentid">04</h5>
+          <img src="kauntujhe.jpg" alt="song1" width="50px" height="50px" id="belowimg">
+          <h3 id="belowsongname">Kaun Tujhe</h3>
+          <h4 id="belowsinger4">By Arman Malik</h4>
+          <i class="fa-regular fa-heart" id="belowheart"></i>
+          <br>
+
+        </div>
+    </section>
+</main>
+
+</body>
+</html>

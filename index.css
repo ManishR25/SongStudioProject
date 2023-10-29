@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(8, 36, 101);
+}
+
+#header{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    display: flex;
+}
+
+.song-logo{
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#heading{
+    display: inline-block;
+    position: absolute;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#Favorite{
+    display: inline-block;
+    position: absolute;
+    color: rgb(121, 129, 136);
+    margin-left: 200px;
+    font-size: 20px;
+    top: 25px;
+}
+
+.search{
+    display: inline-block;
+    position: absolute;
+    height: 30px;
+    width: 190px;
+    outline: none;
+    margin-left: 800px;
+    background-color: rgb(156, 156, 202);
+    border-radius: 50px;
+    color: rgb(237, 237, 237);
+    top: 15%;
+}
+
+#search-icon{
+    position: absolute;
+    margin-left: 1000px;
+    color: rgb(227, 232, 236);
+    top: 28%;
+}
+
+#bell-icon{
+    position: absolute;
+    margin-left: 1050px;
+    color: aliceblue;
+    top: 28%;
+}
+
+.men{
+    position: absolute;
+    margin-left: 1150px;
+    border-radius: 50%;
+    top: -10%;
+}
+
+.playdetails{
+    position: relative;
+    width: 800px;
+    height: 390px;
+    border-radius: 15px;
+    display: inline-block;
+    /* border: 2px solid white; */
+    left: 10%;
+    margin-top: 180px;
+    background-color: rgb(93, 93, 159);  
+}
+
+.danceimage{
+    border-top-left-radius: 0px;
+    display: inline-block;
+}
+
+#codeplayheading{
+    position: absolute;
+    display: inline-block;
+    left: 35%;
+    top: 10%;
+    color: rgb(219, 212, 212);
+}
+
+#britishband{
+    position: absolute;
+    display: inline-block;
+    left: 35%;
+    top: 20%;
+    color: rgb(193, 180, 164);
+}
+
+#codeplaypara{
+    position: absolute;
+    display: inline-block;
+    left: 35%;
+    top: 28%;
+    color: rgb(193, 198, 182);
+}
+
+#playbutton{
+    position: relative;
+    display: inline-block;
+    left: 4%;
+    top: -35%;
+    color: rgb(233, 227, 240);
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+    background: rgb(37,30,172);
+    background: linear-gradient(90deg, rgba(37,30,172,1) 0%, rgba(43,43,175,1) 62%, rgba(0,212,255,1) 100%);
+}
+
+#innerpara{
+    position: relative;
+    display: inline-block;
+    left: -11%;
+    top: -25%;
+    color: aliceblue;
+}
+
+#follow{
+    position: relative;
+    display: inline-block;
+    margin-left: -50px;
+    bottom: 35%;
+    color: rgb(188, 197, 206);
+}
+
+#song1{
+    position: absolute;
+    width: 52.5%;
+    height: 60px;
+    left: 10%;
+    top: 80%;
+    background-color: rgb(96, 81, 136);
+    border-radius: 10px;
+}
+
+#song2{
+    position: absolute;
+    width: 52.5%;
+    height: 60px;
+    left: 10%;
+    top: 90%;
+    background-color: rgb(96, 81, 136);
+    border-radius: 10px;
+}
+
+#song3{
+    position: absolute;
+    width: 52.5%;
+    height: 60px;
+    left: 10%;
+    top: 100%;
+    background-color: rgb(96, 81, 136);
+    border-radius: 10px;
+}
+#song4{
+    position: absolute;
+    width: 52.5%;
+    height: 60px;
+    left: 10%;
+    top: 110%;
+    background-color: rgb(96, 81, 136);
+    border-radius: 10px;
+}
+
+#song5{
+    position: absolute;
+    width: 52.5%;
+    height: 60px;
+    left: 10%;
+    top: 120%;
+    background-color: rgb(96, 81, 136);
+    border-radius: 10px;
+}
+
+#song6{
+    position: absolute;
+    width: 52.5%;
+    height: 60px;
+    left: 10%;
+    top: 130%;
+    background-color: rgb(96, 81, 136);
+    border-radius: 10px;
+    bottom: 10%;
+}
+
+#img{
+    display: inline-block;
+   position: relative;
+   left: 5%;
+   top: -15%;
+   border-radius: 50px;
+}
+
+#songhead{
+    color: rgb(227, 204, 204);
+    position: relative;
+    top: 45%;
+    left: 1%;
+}
+
+#songname{ 
+    display: inline-block;
+    position: absolute;
+    left: 13%;
+    color: rgb(223, 214, 214);
+    top: 30%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#singer{
+    display: inline-block;
+    position: absolute;
+    left: 13%;
+    color: rgb(223, 214, 214);
+    top: 70%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: rgb(103, 88, 146);
+  }
+
+#audio{
+    position: absolute;
+    width: 240px;
+    height: 50px;
+    left: 60%;
+    top: 7%;
+    border: none;
+}
+
+#heart{
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    left: 92%;
+    top: 40%;
+    color: wheat;
+}
+
+#plus{
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    left: 96%;
+    top: 40%;
+    color: wheat;
+}
+
+#artist{
+    position: absolute;
+    width:400px;
+    height: 370px;
+    background-color: rgba(12, 12, 93, 0.996);
+    left: 65%;
+    top:24%;
+    border-radius: 20px;
+}
+
+#sideheading{
+    color: rgb(231, 222, 222);
+    margin: 15px;
+}
+
+#sideheading2{
+    position: absolute;
+    color: antiquewhite;
+    left: 75%;
+    top: 5%;
+}
+
+#sideimg{
+    position: absolute;
+    margin: 10px;
+    top: 10%;
+    border-radius: 10px;
+    opacity: 5.6;
+}
+
+#imagesideheading{
+    position: relative;
+    left: 30%;
+    color: rgb(238, 231, 231);
+    top: 4%;
+}
+
+#dots{
+    position: relative;
+    left: 80%;
+    color: white;
+    top: -2%;
+}
+
+#sidesinger{
+    position: relative;
+    left: 30%;
+    color: rgb(240, 223, 223);
+    top: 0%;
+}
+
+#time{
+    position: relative;
+    left: 79%;
+    color: aliceblue;
+    top: -7%;
+}
+
+#sideimg2{
+    position: absolute;
+    margin: 10px;
+    top: 35%;
+    border-radius: 10px;
+    opacity: 5.6;
+}
+
+#sideimg3{
+    position: absolute;
+    margin: 10px;
+    top: 60%;
+    border-radius: 10px;
+    opacity: 5.6;
+}
+
+#recentplay{
+    position: absolute;
+    left: 65%;
+    top: 77%;
+    width: 400px;
+    height: 445px;
+    background-color: rgb(28, 18, 102);
+    border-radius: 10px;
+}
+
+#recentplayhead{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: antiquewhite;
+}
+
+#viewAll{
+    position: relative;
+    color: aliceblue;
+    margin-left: 300px;
+    margin-top: -15px;
+}
+
+#recentid{
+    position: absolute;
+    color: bisque;
+    margin-left: 10px;
+}
+
+#belowimg{
+    position: relative;
+    left: 9%;
+    top: -4%;
+    border-radius: 50%;
+}
+
+#belowsongname{
+    position: relative;
+    left: 25%;
+    top: -15%;
+    color: aliceblue;
+}
+
+#belowsinger{
+    position: absolute;
+    left:25%;
+    top: 19%;
+    color: rgb(86, 118, 147);
+}
+
+#belowheart{
+    position: relative;
+    left: 78%;
+    top: -18%;
+    color: aliceblue;
+}
+
+#belowsinger1{
+    position: absolute;
+    left:25%;
+    top: 40%;
+    color: rgb(86, 118, 147);
+}
+
+#belowsinger3{
+    position: absolute;
+    left:25%;
+    top: 61%;
+    color: rgb(86, 118, 147);
+}
+
+#belowsinger4{
+    position: absolute;
+    left:25%;
+    top: 81%;
+    color: rgb(86, 118, 147);
+}
+
